@@ -2,8 +2,12 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        
         <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat+Alternates:wght@700&display=swap" rel="stylesheet">
+        
         <title>AmerCraft</title>
         
         <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
@@ -14,6 +18,13 @@
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
         
+  <link rel="stylesheet" href="/style.css">      
+        
+        
+        
+        
+        
+        
     </head>
     <body>
         
@@ -23,32 +34,49 @@
                     <div class="header_logo">AmerCraft</div>
                 
                     
-                    <nav class="nav">
-                        <a class="nav_link active" href="#">About</a>
-                        <a class="nav_link" href="#">Rules</a>
-                        <a class="nav_link" href="#">Forum</a>
-                        <a class="nav_link" href="#">Donate</a>
-                        <a class="nav_link" href="#">Servers</a>
-                    </nav>
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">MENU</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Donate</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#">Forum</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
                 </div> 
             </div> 
         </header>
         
         
-        <div class="intro">
+        <div class="intro" style='background: url("/img/mine.jpg");'>
             <div class="container">
                 <div class="intro_inner">
                     <h2 class="intro_suptitle">Best Minecraft Servers</h2>
                     <h1 class="intro_title">Welcome to AmerCraft</h1>
                     
-                    <a class="button" href="#">Play</a>
+                    <a class="btn button" href="https://tlauncher.org">Play</a>
                 </div>
                 
-               
+                
+                
             </div>
              <div class="slider">
                  <div class="container">
-                    <div class="slider_inner">
+                        
+                     <div class="slider_inner">
                         <div class="slider_item active"><span class="slider_number">01</span> Vanilla</div>
                         <div class="slider_item"><span class="slider_number">02</span> Techno</div>
                         <div class="slider_item"><span class="slider_number">03</span> Magic</div>
@@ -68,27 +96,97 @@
                     </div>
                 </div>
                 
-                <div class="about">
+                
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/img/team%203.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Best Modes</h5>
+        <p>The lu4shie mody mira mainkraft na noveishyh versiyah igry vse optimizirovano prekrsno otve4au</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/img/team.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Anti-Cheat</h5>
+        <p>Kto ska4al 4ity u togo dva otchima i voobshe on obladatel netradicionnoi orientation kr4</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/img/team%202.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Tolerant Community</h5>
+        <p>voobshe ne toxic igroky voobshe klassnye vseh lublu obnyal pripodnyal</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+                
+                
+                
                     
-                    <div class="about_item">
-                        <div class="about_img">
-                            <img src="img/team%202.jpg" width="380" height="250">
-                        </div>
-                        <div class="about_text">best mods</div>
+               
+            </div>
+        </section>
+        
+       
+        
+        <div class="statistics">
+            
+            <div class="container">
+                
+                <div class="stat">
+                
+                    <div class="stat_item">
+                        <div class="stat_num">1</div>
+                        <div class="stat_txt">players registered </div>
                     </div>
                     
-                    <div class="about_item"><div class="about_img">
-                            <img src="img/team.jpg" width="380" height="250">
-                        </div>
-                        <div class="about_text">anti cheat</div></div>
-                    <div class="about_item"><div class="about_img">
-                            <img src="img/team%203.jpg" width="380" height="250">
-                        </div>
-                    <div class="about_text">tolerant community</div></div>
+                    <div class="stat_item"><div class="stat_num">1</div>
+                        <div class="stat_txt">kittens killed </div></div>
+                    <div class="stat_item"><div class="stat_num">0</div>
+                        <div class="stat_txt">servers available </div></div>
+                    <div class="stat_item"><div class="stat_num">26</div>
+                        <div class="stat_txt">players banned </div></div>
+                    <div class="stat_item"><div class="stat_num">999</div>
+                        <div class="stat_txt">days until wipe </div></div>
                     
                 </div>
+            
+            
             </div>
-        </section> 
-    
+        
+        </div>    
+        <script>
+    const list = document.querySelectorAll('.nav-link');
+    console.log(list)
+    function activeLink(){
+        list.forEach((item) => 
+        item.classList.remove('active'));
+        this.classList.add('active');
+    }
+    list.forEach((item) => 
+    item.addEventListener('click',activeLink));
+</script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        
+        <script type="text/javascript">
+       var myCarousel = document.querySelector('#myCarousel')
+        var carousel = new bootstrap.Carousel(myCarousel)
+   </script>
     </body>
 </html>
